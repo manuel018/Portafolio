@@ -1,0 +1,29 @@
+<mat-sidenav-container class="h-[100vh] w-[100vw]">
+    <mat-sidenav #sidenav mode="side" opened="true">
+        <div class="grid grid-cols-1 justify-items-center px-2 py-4 mt-8 gap-y-4 select-none">
+            <a class="btn-menu" routerLink="resumen">
+                <mat-icon class="inline-icon">home</mat-icon>
+                <p class="pl-2 hidden md:block">Inicio</p>
+            </a>
+            <a class="btn-menu" routerLink="tecnologias">
+                <mat-icon class="inline-icon">lightbulb</mat-icon>
+                <p class="pl-2 hidden md:block">Tecnologías</p>
+            </a>
+            <a class="btn-menu" routerLink="sobre-mi">
+                <mat-icon class="inline-icon">engineering</mat-icon>
+                <p class="pl-2 hidden md:block">Sobre Mí</p>
+            </a>
+            <a class="btn-menu" routerLink="proyectos">
+                <mat-icon class="inline-icon">rocket_launch</mat-icon>
+                <p class="pl-2 hidden md:block">Proyectos</p>
+            </a>
+            <a class="btn-menu" routerLink="contacto">
+                <mat-icon class="inline-icon">share</mat-icon>
+                <p class="pl-2 hidden md:block">Contacto</p>
+            </a>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content class="relative p-6">
+        <router-outlet />
+    </mat-sidenav-content>
+</mat-sidenav-container>

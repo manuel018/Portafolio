@@ -1,0 +1,13 @@
+<section class="flex flex-col gap-y-4">
+    <div class="div-resumen-card">
+        <h2 class="text-center">Tecnologías</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-2 py-2">
+            @for (item of tecnologias; track $index) {
+            <div class="bg-white rounded-md p-2 border-[0.15em] ">
+                <img class="m-auto h-24 md:h-32 w-auto" src="{{item.imagen}}" alt="img-tecnologia">
+                <p class="text-center pt-4 font-bold">{{item.nombre}}</p>
+            </div>
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,50 @@
+<section class="flex flex-col gap-y-4">
+    <div class="div-resumen-card grid grid-rows-1 md:grid-cols-[1fr_6fr] gap-x-2 justify-items-center items-center">
+        <img class="w-[20vw] md:w-4/5 pb-2" src="/assets/default.png" alt="profile-img">
+        <div>
+            <p class="text-justify px-2">Estudiante de Ingeniería de Sistemas e Informática en el séptimo ciclo, con
+                sólidos
+                conocimientos en
+                programación, desarrollo web y redes. Busco una oportunidad para realizar prácticas preprofesionales que
+                me
+                permitan aplicar mis habilidades técnicas, aprender sobre el entorno laboral, aprender nuevas
+                tecnologías y
+                contribuir a proyectos innovadores.
+            </p>
+        </div>
+    </div>
+    <div class="div-resumen-card">
+        <h2 class="text-center">Tecnologías</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-2 py-2">
+            @for (item of tecnologias; track $index) {
+            <div class="bg-white rounded-md p-2 border-[0.15em] ">
+                <img class="m-auto h-24 md:h-32 w-auto" src="{{item.imagen}}" alt="img-tecnologia">
+                <p class="text-center pt-4 font-bold">{{item.nombre}}</p>
+            </div>
+            }
+        </div>
+        <a class="block mt-4 text-center text-teal-500 cursor-pointer select-none" routerLink="../tecnologias">Ver
+            más...</a>
+    </div>
+    <div class="div-resumen-card">
+        <h2 class="text-center">Proyectos</h2>
+        <p>En construcción...</p>
+    </div>
+    <div class="div-resumen-card">
+        <h2 class="text-center">Mis redes</h2>
+        <div class="flex justify-center md:flex-row flex-col gap-2 py-2">
+            <a href="https://github.com/manuel018" target="_blank">
+                <div class="bg-white rounded-md p-2 border-[0.15em] ">
+                    <img class="m-auto h-24 md:h-32 w-auto" src="/assets/github.png" alt="img-tecnologia">
+                    <p class="text-center pt-4 font-bold">GitHub</p>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/manuel-alejandro-yaya-purizaca-0a34a52a4" target="_blank">
+                <div class="bg-white rounded-md p-2 border-[0.15em] ">
+                    <img class="m-auto h-24 md:h-32 w-auto" src="/assets/linkedin.png" alt="img-tecnologia">
+                    <p class="text-center pt-4 font-bold">LinkedIn</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
