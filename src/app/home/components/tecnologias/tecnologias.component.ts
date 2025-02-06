@@ -15,35 +15,35 @@ export class TecnologiasComponent {
     this.tecnologias = [
       {
         nombre: 'Java',
-        imagen: '/assets/java.png',
+        imagen: 'assets/java.png',
       },
       {
         nombre: 'Python',
-        imagen: '/assets/python.png',
+        imagen: 'assets/python.png',
       },
       {
         nombre: 'TypeScript',
-        imagen: '/assets/typescript.png',
+        imagen: 'assets/typescript.png',
       },
       {
         nombre: 'PHP',
-        imagen: '/assets/php.png',
+        imagen: 'assets/php.png',
       },
       {
         nombre: 'C#',
-        imagen: '/assets/csharp.png',
+        imagen: 'assets/csharp.png',
       },
       {
         nombre: 'Javascript',
-        imagen: '/assets/js.png',
+        imagen: 'assets/js.png',
       },
       {
         nombre: 'CSS',
-        imagen: '/assets/css.png',
+        imagen: 'assets/css.png',
       },
       {
         nombre: 'HTML',
-        imagen: '/assets/html.png',
+        imagen: 'assets/html.png',
       },
     ];
   }
