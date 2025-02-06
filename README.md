@@ -1,5 +1,7 @@
 # Portafolio
 
+Portafolio para mostrar la informacion personal y el manejo de las tecnologias aprendidas. https://manuel018.github.io/Portafolio/home/resumen 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 ## Development server
